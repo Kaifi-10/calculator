@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './Calculator.module.css'
-import {evaluate} from 'mathjs'
+// import {evaluate} from 'mathjs'
 
 function Calculator() {
 
@@ -22,7 +22,7 @@ function Calculator() {
       return
     }
     try {
-      setResult(evaluate(input))
+      setResult(eval(input))
       console.log(result)
     } catch (error) {
       setResult('Error')
