@@ -1,0 +1,30 @@
+.keypad{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.display {
+    
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result{
+    margin: 10px;
+}
